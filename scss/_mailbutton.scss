@@ -1,0 +1,14 @@
+#mail-button {
+	position: fixed;
+	top: 200px;
+	left: 0px;
+
+	padding: 20px;
+	border: 1px solid red;
+	background: black;
+	
+	a {
+		writing-mode: vertical-lr;
+		text-orientation: upright;
+	}
+}

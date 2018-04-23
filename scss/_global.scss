@@ -46,6 +46,13 @@ section {
   }
 }
 
+.masthead {
+	.container {
+		margin-right: 70px;
+		text-align: right;
+	}
+}
+
 
 @media(min-width:768px) {
   section {

@@ -48,6 +48,11 @@ section h3.section-subheading {
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.masthead .container {
+  margin-right: 70px;
+  text-align: right;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -142,6 +147,14 @@ img::-moz-selection {
   color: white;
 }
 
+#mainNav .container {
+  margin-right: 45px;
+}
+
+#mainNav .navbar-brand {
+  margin-left: -55px;
+}
+
 #mainNav .navbar-nav.navbar-shrink .nav-link {
   color: white;
 }
@@ -186,7 +199,7 @@ header.masthead {
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: 0px center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -707,4 +720,18 @@ ul.social-buttons li a {
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
+}
+
+#mail-button {
+  position: fixed;
+  top: 200px;
+  left: 0px;
+  padding: 20px;
+  border: 1px solid red;
+  background: black;
+}
+
+#mail-button a {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
