@@ -25,6 +25,10 @@
     target: '#mainNav',
     offset: 56
   });
+  
+  setTimeout(function() {
+	$("#mail-button").animate({left: '0px'});  
+  }, 5000);
 
   // Collapse Navbar
   var navbarCollapse = function() {

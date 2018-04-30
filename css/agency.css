@@ -151,6 +151,13 @@ img::-moz-selection {
   margin-right: 45px;
 }
 
+#mainNav .container #phones-block {
+  position: absolute;
+  left: 45px;
+  color: #fed136;
+  display: none;
+}
+
 #mainNav .navbar-brand {
   margin-left: -55px;
 }
@@ -161,6 +168,10 @@ img::-moz-selection {
 
 #mainNav .navbar-nav.navbar-shrink .nav-link:hover {
   color: #fed136;
+}
+
+#mainNav.navbar-shrink .container #phones-block {
+  display: block;
 }
 
 @media (min-width: 992px) {
@@ -724,14 +735,28 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 #mail-button {
   position: fixed;
-  top: 200px;
-  left: 0px;
+  top: 40%;
+  left: -66px;
   padding: 20px;
-  border: 1px solid red;
-  background: black;
+  border: 1px solid #fed136;
+  border-radius: 0px 10px 10px 0px;
+  background: #fed136;
 }
 
 #mail-button a {
+  color: white;
   writing-mode: vertical-lr;
   text-orientation: upright;
+}
+
+svg#vodafone {
+  width: 16px;
+  height: 16px;
+  fill: red;
+}
+
+svg#kievstar {
+  width: 16px;
+  height: 16px;
+  fill: #a7a7f0;
 }

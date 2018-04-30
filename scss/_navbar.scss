@@ -40,6 +40,13 @@
   
 	.container {
 		margin-right: 45px;
+		
+		#phones-block {
+			position: absolute;
+			left: 45px;
+			color: $primary;
+			display: none;
+		}
 	}
 
 	.navbar-brand {
@@ -55,6 +62,15 @@
 	}
   }
 }
+
+#mainNav.navbar-shrink {
+	.container {
+		#phones-block {
+			display: block;
+		}
+	}
+}
+
 @media(min-width:992px) {
   #mainNav {
     padding-top: 25px;
