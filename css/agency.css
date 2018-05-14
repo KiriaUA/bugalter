@@ -153,7 +153,8 @@ img::-moz-selection {
 
 #mainNav .container #phones-block {
   position: absolute;
-  left: 45px;
+  right: 91px;
+  top: 15px;
   color: #fed136;
   display: none;
 }
